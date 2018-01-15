@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>{{site.title}}</h1>
+
+{{ content }}
+
+<ul>
+<li><a href="{{'syllabus.html' | relative_url }}">Syllabus</a></li>
+{% for f in site.html_pages %}
+{% if f.dir contains "week" and f.path contains "index" %}
+<li><a href="{{f.url | relative_url }}">{{f.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>

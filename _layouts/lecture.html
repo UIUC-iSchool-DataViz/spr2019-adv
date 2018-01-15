@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>reveal.js</title>
+
+<link rel="stylesheet" href="/revealjs/css/reveal.css">
+<link rel="stylesheet" href="/revealjs/css/theme/white.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="/revealjs/lib/css/zenburn.css">
+
+<!-- Printing and PDF exports -->
+<script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ?  '/revealjs/css/print/pdf.css' : '/revealjs/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+<script src="/revealjs/lib/js/head.min.js"></script>
+<script src="/revealjs/js/reveal.js"></script>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="^\n---\n">
+          <script type="text/template">
+{{page.content}}
+          </script>
+        </section>
+      </div>
+    </div>
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            { src: '/revealjs/plugin/markdown/marked.js' },
+            { src: '/revealjs/plugin/markdown/markdown.js' },
+            { src: '/revealjs/plugin/notes/notes.js', async: true },
+            { src: '/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: '/reveal.js-plugins/chalkboard/chalkboard.js' }
+        ],
+		keyboard: {
+			67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+			66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+			46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+			 8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+			68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+		},
+    });
+</script>
+  </body>
+</html>
+
