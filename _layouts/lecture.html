@@ -4,14 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<title>reveal.js</title>
+<title>{{page.title}}</title>
 
 <link rel="stylesheet" href="/revealjs/css/reveal.css">
 <link rel="stylesheet" href="/revealjs/css/theme/white.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!-- Theme used for syntax highlighting of code -->
-<link rel="stylesheet" href="/revealjs/lib/css/zenburn.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 
 <!-- Printing and PDF exports -->
 <script>
@@ -23,12 +24,33 @@
 </script>
 <script src="/revealjs/lib/js/head.min.js"></script>
 <script src="/revealjs/js/reveal.js"></script>
+<style type="text/css">
+.reveal section.present {
+  text-align: left;
+}
+.centered {
+  text-align: center;
+}
+.reveal {
+  font-size: 30px;
+  font-family: 'Questrial', sans-serif;
+}
+.reveal section img {
+  box-shadow: none;
+  border: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
   </head>
 
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-markdown data-separator="^\n---\n">
+        <section data-markdown
+           data-separator="^\n---\n"
+           data-separator-vertical="^\n----\n">
           <script type="text/template">
 {{page.content}}
           </script>
@@ -45,7 +67,8 @@
             { src: '/revealjs/plugin/markdown/markdown.js' },
             { src: '/revealjs/plugin/notes/notes.js', async: true },
             { src: '/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-            { src: '/reveal.js-plugins/chalkboard/chalkboard.js' }
+            { src: '/reveal.js-plugins/chalkboard/chalkboard.js' },
+            { src: '/revealjs/plugin/math/math.js', async: true }
         ],
 		keyboard: {
 			67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
@@ -54,6 +77,9 @@
 			 8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
 			68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
 		},
+        center: false,
+        transition: 'none',
+        backgroundTransition: 'none'
     });
 </script>
   </body>
