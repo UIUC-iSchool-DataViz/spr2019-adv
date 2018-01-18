@@ -6,8 +6,8 @@
 
 <title>{{page.title}}</title>
 
-<link rel="stylesheet" href="/revealjs/css/reveal.css">
-<link rel="stylesheet" href="/revealjs/css/theme/white.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!-- Theme used for syntax highlighting of code -->
@@ -22,8 +22,8 @@
     link.href = window.location.search.match( /print-pdf/gi ) ?  '/revealjs/css/print/pdf.css' : '/revealjs/css/print/paper.css';
     document.getElementsByTagName( 'head' )[0].appendChild( link );
 </script>
-<script src="/revealjs/lib/js/head.min.js"></script>
-<script src="/revealjs/js/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
 <style type="text/css">
 .reveal section.present {
   text-align: left;
@@ -63,12 +63,12 @@
     // - https://github.com/hakimel/reveal.js#dependencies
     Reveal.initialize({
         dependencies: [
-            { src: '/revealjs/plugin/markdown/marked.js' },
-            { src: '/revealjs/plugin/markdown/markdown.js' },
-            { src: '/revealjs/plugin/notes/notes.js', async: true },
-            { src: '/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js' },
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.min.js' },
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.min.js', async: true },
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
             { src: '/reveal.js-plugins/chalkboard/chalkboard.js' },
-            { src: '/revealjs/plugin/math/math.js', async: true }
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/math/math.min.js', async: true }
         ],
 		keyboard: {
 			67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
