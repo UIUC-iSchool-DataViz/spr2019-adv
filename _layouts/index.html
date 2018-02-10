@@ -5,11 +5,24 @@ layout: default
 
 {{ content }}
 
+<p><a href="{{'syllabus.html' | relative_url}}">Course syllabus</a></p>
+
+<h2>Weekly Lectures and Materials</h2>
+
 <ul>
-<li><a href="{{'syllabus.html' | relative_url }}">Syllabus</a></li>
-{% for f in site.html_pages %}
+{% assign sorted_pages = site.html_pages | sort:"path" %}
+{% for f in sorted_pages %}
 {% if f.dir contains "week" and f.path contains "index" %}
 <li><a href="{{f.url | relative_url }}">{{f.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<h2>Assignments</h2>
+<ul>
+{% for f in sorted_pages %}
+{% if f.dir contains "assignments" and f.path contains "assignment" %}
+<li><a href="{{f.url | relative_url }}">{{f.title}}</a> - Due {{f.due}}</li>
 {% endif %}
 {% endfor %}
 </ul>
