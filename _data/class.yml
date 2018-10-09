@@ -1,33 +1,19 @@
 instructor: 
   name: Matthew Turk
   email: mjturk@illinois.edu
-  office: 106 Astronomy
+  office: 222 LIS (501 E Daniel)
   office_hours: By appointment
-tas:
-  -
-    name: Name1
-    email: Email1
-    office: ZZZ
-    office_hours: XYZ
-  -
-    name: Name2
-    email: email2
-    office: Office2
-    office_hours: OfficeHours2
 course:
-  name: COURSENAME
-  number: COURSENUM
-  semester: SEMESTER, YEAR
+  name: Advanced Topics in Visualization
+  number: IS590ATIV
+  semester: Spring, 2019
   location: LOCATION
   time: DAYTIME
-  credit_hours: Z
+  credit_hours: 4
 urls:
   -
     name: Jupyterhub
-    url: https://example.com/
+    url: https://jupyterhub.ischool.illinois.edu/
   -
-    name: Slack
-    url: https://example.com/
-  - 
-    name: Moodle
-    url: https://example.com/
+    name: Shared Papers
+    url: https://paperpile.com/shared/W47CwV

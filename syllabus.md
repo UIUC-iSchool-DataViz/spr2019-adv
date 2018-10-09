@@ -5,23 +5,16 @@ title: Syllabus
 
 # Course Description
 
-Short course description here.
+In this seminar-style course we will discuss advanced topics in visualization
+techniques.  This will cover topics such as the history of visualization
+techniques, the perception and understanding of visual information, and new
+frontiers in displaying quantitative information.  We will explore the modern
+technical stack for creating and sharing visualizations, including topics in
+javascript, python, and reactive frameworks.
 
 ## Course Overview
 
-This course is designed to give practical advice to students on
-communicating data through visualization.  This will involve a considerable
-amount of programming, and typically this programming will be done in Python.
-For the most part, our data will be quantitative and multi-dimensional.  The
-course will aim to provide both an understanding of what data visualizations
-communicate and a set of tools for constructing them yourself.
-
-The course will follow a common pattern within each three-hour instructional
-session.  The first 60-90 minutes will be focused on lecture, where concepts
-and tools will be introduced; typically, each class will focus on one type of
-visualization or class of visualization.  The remaining time will include
-exploration of a dataset, which may be independent or in groups, and then a
-wrap-up session at the end.
+This course
 
 Students are expected to have laptops with them, as well as access to Python
 installations, and will be encouraged to participate in class.  Homework will
@@ -30,7 +23,11 @@ notebooks.
 
 ## Pre- and Co-requisites
 
-None, although Python programming experience is assumed.
+No explicit prerequisites are required.  Students are expected to have taken
+standard programming courses.  Students are expected to either be familiar
+with, or be prepared to familiarize themselves with, Python, Javascript,
+GitHub, and other computational tools.  Haven taken Data Viz (IS590DV) is
+optional, but encouraged.
 
 # Course Overview
 
