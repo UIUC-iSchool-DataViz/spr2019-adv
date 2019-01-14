@@ -2,91 +2,120 @@
 title: Lecture 1
 layout: lecture
 ---
-# Data Visualization
+# Advanced Data Visualization
 ## Matthew Turk
-## Spring 2018
+## Spring 2019
 
 ---
 # Basics
 
-1PM-3:50PM Fridays, LIS-126
+1:00PM-3:50PM Mondays, LIS-242
 
 Matthew Turk - mjturk@illinois.edu
-Office Hours: Wednesday 2-4, LIS 222
+Office Hours: By appointment
 
-TA Jarai Carter - carter31@illinois.edu
+http://github.com/UIUC-iSchool-DataViz/spring2019-adv/
 
-http://github.com/UIUC-iSchool-DataViz/
-
-
----
-# Timed activity!
+[spring2019-adv](uiuc-ischool-dataviz.github.io/spring2019-adv/)
 
 ---
-Each of you has a notecard with a number.
 
-On the back of that notecard:
+## Land Acknowledgment
 
-* What are the most memorable movies you saw over the last year?
-* Do you prefer cats or dogs?
-* How would you quantify your experience in visualization?
-* What would you guess the square footage of this building is?
-* People per row in this class.
+Please see the Land Acknowledgment in the Syllabus.
+
+[More information can be found on the Chancellor's
+Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 
 ---
-Break into groups based on your numbers, and visualize the results by whatever method you choose: by hand, by computer, or otherwise.
 
-Affix to or inscribe upon your sheet of paper.
+# Introductions
 
----
-# Syllabus
-
-* Week 1 (Sept 1): Introduction, syllabus, examples, and some basics
-* Week 2 (Sept 8): Operational palette, structured python, and files
-* Week 3 (Sept 15): Quantitative plots, plot components
-* Week 4 (Sept 22): Histograms and distributions
-* Week 5 (Sept 29): R and ggplot
-* Week 6 (Oct 6): Images: color, colormaps
-* Week 7 (Oct 13): Comparisons between datasets
-* Week 8 (Oct 20): Comparisons between different datasets
-* Week 9 (Oct 27): Network visualization
-* Week 10 (Nov 3): Principles of interactive visualization
-* Week 11 (Nov 10): Interactive visualization with Python
-* Week 12 (Nov 17): Scientific visualization
-* Week 13 (Dec 1): Advanced topics
-* Week 14 (Dec 8): Group presentations
+ * What experience do you have with visualization?
+ * Do you have any programming experience?
+ * What types of data are you really interested in?
+ * Bonus: do you do any data collection yourself?
 
 ---
-# Overview - Themes
-1. What are the components of an effective visualization of quantitative data?
-1. What tools and ecosystems are available for visualizing data?
-1. What systems can be put in place to generate visualizations rapidly and with high-fidelity representation?
 
+## "Advanced Topics" in Visualization
+
+In this class we will:
+
+ * Conduct some light literature review
+ * Explore new software frameworks
+ * Draw and prototype stuff
+ * Talk through design decisions
+ * Come up against really hard problems
+ * Seek out and find data
 
 ---
-# Overview - Goals
 
-* Students will be able to communicate information and data through visual representation
-* Students will be able to examine a visualization and understand how it can be improved upon
-* Students will have facility with the commonplace tools used for visualization, and a deeper understanding of where those tools have shortcomings
+## Hisss
+
+In the middle of the table, you will find a game.
+
+Three of us will play this game.
 
 ---
-# Initial steps with Viz
 
-The first thing we're going to do is set up our visualization environment.
+## Hisss - Part Two
 
-We'll import a few things and go from there.
+There are fifty cards.
 
+Let's explore these cards and what they contain.
 
-```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-```
+On your drawing surface, sketch out what you think the 
 
-Now we have a few things imported, so let's check out where to go from here.
+---
 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/hVimVzgtD6w" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
 
-```python
-pd.read_csv("hello.csv")
-```
+(It's a cliche to show this, but it's still great.)
+
+---
+
+## Conceptual Framework
+
+How should we evaluate the visualizations we develop and utilize?
+
+ * Degree of Reduction
+ * Interpretability
+ * "Neutrality"
+ * Aesthetics
+
+---
+
+## Prototyping
+
+During this course you will be expected to prototype visualizations quickly,
+often utilizing drawing or design tools.
+
+---
+
+## Weather
+
+---
+
+## Zero to Sixty Computational Stuff
+
+During this course we will be utilizing a number of software packages, mostly
+written in Python and Javascript.  To that end, we'll have a crash course right
+now in:
+
+ * Python and Jupyter Notebooks and Widgets
+ * Javascript (specifically vega-lite)
+ * Github pages
+
+We'll use weather data from the [Midwest Regional Climate
+Center](https://mrcc.illinois.edu/) to get started.
+
+---
+
+## Next Time
+
+Next time we will start talking about color and using vizualizations that are
+exclusively designed for internal comparisons.

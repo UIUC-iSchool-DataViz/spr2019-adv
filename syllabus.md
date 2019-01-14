@@ -14,12 +14,17 @@ javascript, python, and reactive frameworks.
 
 ## Course Overview
 
-This course
+This course will include a number of technical tasks, but will additionally be
+focused on the aesthetic and high-level understanding of visualization.
+We will discuss in depth new trends in visualization as well as evidence-based
+studies of how to develop better visualizations.
 
 Students are expected to have laptops with them, as well as access to Python
 installations, and will be encouraged to participate in class.  Homework will
-be assigned and collected utilizing GitHub Classroom in the form of Jupyter
-notebooks.
+largely be in the form of projects and open-ended assignments.  Class
+participation will not determine grades but is expected to guide discussions;
+students are expected to participate and share thoughts, ideas, and
+suggestions.
 
 ## Pre- and Co-requisites
 
@@ -48,15 +53,17 @@ Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 
 The central themes of the course are:
 
-1. What are the components of an effective visualization of quantitative data?
-2. What tools and ecosystems are available for visualizing data?
-3. What systems can be put in place to generate visualizations rapidly and with
-   high-fidelity representation?
+1. What are currently-understood best practices for constructing meaningful and
+   beautiful visualizations?
+2. What is the "cutting edge" of software stacks for visualization?
+3. What theoretical approaches to visualization can we utilize to improve our
+   ability to understand data?
 
 # Course Materials
 
 There is no textbook for this course.  All course materials will be posted to
-the GitHub repository at https://github.com/UIUC-iSchool-DataViz/spring2017 .
+the GitHub repository at
+https://github.com/UIUC-iSchool-DataViz/spring2019-adv/
 
 As the course progresses, a list of recommended readings will be generated for
 each class.  These will be included in the course materials repository, and
@@ -125,36 +132,19 @@ disability@illinois.edu.
 
 # Assignments and Evaluation
 
-Students will be graded based on a combination of assignments (70%) and a final
-project (30%).  The final project will be a capstone to the course, and will
-have greater flexibility in software packages and data sources.  This project
-will be introduced in Week 8.
+Students will be graded based on a combination of assignments (30%), class
+presentations (30%) and a final project (40%).  The final project will be a
+capstone to the course.
 
 Assignments in this course will be a mixture of coding/visualization work and
-written work.  These two may not be distinct assignments; students will be
-asked to describe their code and justify choices for making decisions with
-respect to visualizations.
+written (or drawn) work.  These two may not be distinct assignments; students
+will be asked to describe their code and justify choices for making decisions
+with respect to visualizations.
 
 Students are expected, unless otherwise instructed, to be the principal authors
 of their code.  This does not mean they may not investigate resources such as
 StackOverflow, package documentation, etc; however, they *must* cite when
 resources (especially StackOverflow and other "recipe" sites) are utilized.
-
-Assignments will take two forms, and will be given at the end of each class.
-Students will have until the following class to turn these in; assignments will
-be collected electronically.
-
- * The first type of assignment will be a written document, constituting 
-   either a brief literature review or an analysis of a visualization or
-   set of visualizations.  The parameters for these assignments will be given
-   during class, but will typically involve a critique of a visualization,
-   including citing relevant works in the visualization literature.
- * The second type of assignment will be a hands-on, code-based assignment.
-   Students will be provided either a dataset *or* a class of datasets from
-   which they can choose, and construct one or multiple mechanisms of drawing
-   information out of this visually.  These will be submitted in the form of
-   Jupyter notebooks.  Each visualization must be accompanied by narrative
-   description from the student describing why design decisions were made.
 
 The submission process for homeworks will be described by example during class
 before any homeworks are to be submitted.
@@ -211,26 +201,25 @@ course outline below is subject to some flexibilty; students will be encouraged
 to provide feedback on the topics covered, particularly toward the end.  Topics
 that are of particular interest will be emphasized.
 
- * Week 1 (Jan 20): Introduction, syllabus, and examples of visualization.
-   Installation of packages and introduction to python and matplotlib.
-   (Coding assignment) 
- * Week 2 (Jan 27): Simple plotting: quantitative plots, breakdown of plot
-   components.  (Prose assignment)
- * Week 2 (Feb 3): Binning, filtering, smoothing, and multiplots. (No
-   assignment).
- * Week 4 (Feb 10): Histograms, binning, and distributions.  (Coding
-   assignment)
- * Week 5 (Feb 17): Images: color theory, colormaps, generating visualizations
-   of images and image-like quantities. (Prose assignment)
- * Week 6 (Feb 23): Quantitative and time series (Coding assignment)
- * Week 7 (Mar 2): Geospatial visualizations
- * Week 8 (Mar 10): Synthesizing multiple datasets
- * Week 9 (Mar 17): Software ecosystem around visualization
- * Week 10 (Mar 31): Network visualization
- * Week 11 (Apr 7): Statistical visualization
- * Week 12 (Apr 14): Interactive visualizations
- * Week 13 (Apr 21): Advanced topics
- * Week 14 (Apr 27): Group presentations
+Roughly speaking, the first half of class will cover theoretical topics and the
+latter half will cover software topics.
+
+ * Week 1 (Jan 14): Introduction, syllabus, and get-to-know-each-other.
+ * Week 2 (Jan 21): No class -- Martin Luther King Jr Day
+ * Week 3 (Jan 28): Exclusively "comparison-based" visualizations
+ * Week 4 (Feb 4): TBD
+ * Week 5 (Feb 11): Interactivity in visualization
+ * Week 6 (Feb 18): Colors and colormapping
+ * Week 7 (Feb 25): "Registration" of data
+ * Week 8 (Mar 4): Scientific visualization
+ * Week 9 (Mar 11): TBD
+ * Week 10 (Mar 18): No class -- Spring break
+ * Week 11 (Mar 25): Software Frameworks I
+ * Week 12 (Apr 1): Software Frameworks II
+ * Week 13 (Apr 8): Image analysis
+ * Week 14 (Apr 15): Large-scale Viz I
+ * Week 15 (Apr 22): Large-scale Viz II
+ * Week 16 (Apr 29): Project presentations
 
 ## Emergency response: Run, Hide, Fight
 

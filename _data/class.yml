@@ -5,15 +5,12 @@ instructor:
   office_hours: By appointment
 course:
   name: Advanced Topics in Visualization
-  number: IS590ATIV
+  number: IS590ADV
   semester: Spring, 2019
-  location: LOCATION
-  time: DAYTIME
+  location: LIS 242
+  time: 1:00PM-3:50PM, Mondays
   credit_hours: 4
 urls:
-  -
-    name: Jupyterhub
-    url: https://jupyterhub.ischool.illinois.edu/
   -
     name: Shared Papers
     url: https://paperpile.com/shared/W47CwV

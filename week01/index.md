@@ -4,8 +4,8 @@ layout: week
 
 # Week 1 - Introduction
 
-This week, we covered a few important topics.  The rough outline is:
+This week we introduced the course and did some exercises to understand
+how to construct our thoughts about visualization this term.
 
- * this
- * that
- * the other
+ * [Hisss](https://gamewright.com/product/Hisss)
+ * Paper collection
