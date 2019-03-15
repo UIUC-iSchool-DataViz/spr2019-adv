@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/spr2019-adv" # the subpath of your site, e.g. /blog
 url: "https://uiuc-ischool-dataviz/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: uiuc-ischool-dataviz
-branch: gh-pages
+branch: master
 
 # Build settings
 markdown: kramdown
