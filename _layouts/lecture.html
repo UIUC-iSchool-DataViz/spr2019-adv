@@ -14,97 +14,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 
-<!-- Printing and PDF exports -->
-<script>
-    var link = document.createElement( 'link' );
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ?  '/revealjs/css/print/pdf.css' : '/revealjs/css/print/paper.css';
-    document.getElementsByTagName( 'head' )[0].appendChild( link );
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js"></script>
 {% if page.include_vega %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.3.1/vega-lite.min.js"></script>
 {% endif %}
 
-<style type="text/css">
-.reveal section.present {
-  text-align: left;
-}
-.centered {
-  text-align: center;
-}
-.reveal {
-  font-size: 30px;
-  font-family: 'Questrial', sans-serif;
-}
-.reveal section img {
-  box-shadow: none;
-  border: 0px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.reveal bigtext {
-  font-size: 800%;
-}
-
-.reveal h1, .reveal h2, .reveal h3 {
-  text-transform: none;
-}
-
-.reveal .titleslide h1 {
-  text-align: center;
-}
-.reveal .titleslide h2 {
-  text-align: right;
-}
-
-.vertical_center section {
-  vertical-align: middle;
-}
-
-.left_abs {
-  left:0%;
-  text-align: left;
-  float: left;
-  width:50%;
-  z-index:-10;
-}
-
-.left {
-  left:-8.33%;
-  text-align: left;
-  float: left;
-  width:50%;
-  z-index:-10;
-}
-
-.right {
-  left:31.25%;
-  top: 75px;
-  float: right;
-  text-align: right;
-  z-index:-10;
-  width:50%;
-}
-
-.reveal table td {
-  text-align: left;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  border: solid; 
-}
-
-.reveal table tbody tr:last-child th,
-.reveal table tbody tr:last-child td {
-  border-bottom: solid; }
-
-.reveal .table-hl {
-  background: #aaa;
-}
-
 </style>
+
+  <link rel="stylesheet/less" type="text/css" href="{{ '/assets/styles.less' | relative_url }}" />
   </head>
 
   <body>
@@ -130,6 +48,7 @@
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.min.js', async: true },
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
             { src: '/reveal.js-plugins/chalkboard/chalkboard.js' },
+            { src: '/reveal-paperjs/paper-figures.js', async: true},
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/math/math.min.js', async: true }
         ],
 		keyboard: {
@@ -144,6 +63,7 @@
         backgroundTransition: 'none'
     });
 </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
   </body>
 </html>
 
