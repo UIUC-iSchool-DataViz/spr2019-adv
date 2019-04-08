@@ -18,7 +18,7 @@ setup_script: setup_script.js
    * Removing data
    * Simple RPG
  * PaperJS for diagrams and pixel manipulation
- * RevealJS
+ * Let's make an RPG
 
 ---
 
@@ -266,6 +266,28 @@ copy.smooth();
 <!-- .element: style="font-size: 50%;" -->
 
 <canvas data-paper-resize="true" data-paper-script="figure_cloned_square"></canvas>
+
+---
+
+## PaperJS: Events
+
+You can connect events to functions by either assigning them to elements or defining them globally.  For example:
+
+```javascript
+var path;
+function onMouseDown(event) {
+	// Create a path:
+	path = new Path();
+	path.strokeColor = 'black';
+	// Add the mouse down position:
+	path.add(event.point);
+}
+
+function onMouseUp(event) {
+	// Add the mouse up position:
+	path.add(event.point);
+}
+```
 
 ---
 
