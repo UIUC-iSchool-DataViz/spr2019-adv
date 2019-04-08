@@ -185,7 +185,7 @@ embedded4.then( function(res) {
 
 Now, let's figure out how we can draw stuff.  We are deferring discussion of D3 to a later date, and instead we will be looking at a lightweight mechanism for drawing.
 
-You can experiment online at [sketch.paperjs.org](https://sketch.paperjs.org/).
+You can experiment online at [sketch.paperjs.org](http://sketch.paperjs.org/).
 
 ---
 
@@ -198,7 +198,7 @@ You can experiment online at [sketch.paperjs.org](https://sketch.paperjs.org/).
     <canvas data-paper-resize="true" data-paper-script="figure_cell_spin"></canvas>
   </div>
   <div class="col fullHeight" style="vertical-align: baseline;">
-		[PaperJS](https://paperjs.org/) is a library for vector graphics.  It has
+		[PaperJS](http://paperjs.org/) is a library for vector graphics.  It has
 	  lots of nice features, and it's pretty fast!
     </div>
 </div>
