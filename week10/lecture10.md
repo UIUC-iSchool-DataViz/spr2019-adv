@@ -1,10 +1,8 @@
 ---
-title: Lecture 9
+title: Lecture 10
 layout: lecture
-include_vega: true
-setup_script: setup_script.js
-
 ---
+
 ## Advanced Data Visualization
 ## Matthew Turk
 ## Spring 2019
